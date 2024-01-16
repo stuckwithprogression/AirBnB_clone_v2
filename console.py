@@ -118,7 +118,8 @@ class HBNBCommand(cmd.Cmd):
         return False
 
     def parse_key_value_pairs(self, args):
-        """Creates a dictionary from a list of strings representing key-value pairs"""
+        """Creates a dictionary from a list of strings representing
+        key-value pairs"""
         result_dict = {}
         for arg in args:
             if "=" in arg:
